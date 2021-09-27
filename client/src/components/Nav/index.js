@@ -35,6 +35,11 @@ function Header() {
             </Link>
           </li>
           <li className="mx-1">
+            <Link to="/about">
+              About
+            </Link>
+          </li>
+          <li className="mx-1">
             <Link to="/signup">
               Signup
             </Link>
@@ -44,6 +49,7 @@ function Header() {
               Login
             </Link>
           </li>
+        
         </ul>
       );
     }
